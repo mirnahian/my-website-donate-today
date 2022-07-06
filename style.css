@@ -175,10 +175,14 @@ h1 {
 }
 
 #sub-but {
-    width: 140px;
-    height: 40px;
+    width: 200px;
+    height: 50px;
     /* padding-left: 30px;
     padding-right: 100px; */
+    background-color: tomato;
+    border-radius: 5px;
+    border: 0;
+    padding: 15px;
 }
 
 .humble {
