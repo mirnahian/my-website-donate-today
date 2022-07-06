@@ -78,21 +78,20 @@ h1 {
 
 .ODP {
     display: flex;
-}
-
-#pdo-2 {
-    border-radius: 0px;
-    background-color: #ff5959;
+    #pdo-2 {
+        border-radius: 15px;
+        background-color: #ff5959;
+    }
 }
 
 #pdo-1 {
-    border-radius: 0px;
+    border-radius: 15px;
     margin-right: 2%;
     background-color: #4f9da6;
 }
 
 #pdo-3 {
-    border-radius: 0px;
+    border-radius: 15px;
     margin-left: 2%;
     background-color: #fff4d6;
 }
@@ -133,10 +132,64 @@ h1 {
 
 .Submit-button {
     text-decoration: none;
-    background-color: blue;
+    background-color: tomato;
     color: white;
     height: 30px;
     border-radius: 15px;
     border: 0;
     padding: 15px;
+}
+
+#pdo-2 {
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+
+#pdo-1 {
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+
+#pdo-3 {
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+
+.fdo-1 {
+    padding-top: 0px;
+}
+
+.update {
+    text-align: center;
+}
+
+#sub-box {
+    text-align: center;
+}
+
+#chat-box-1 {
+    padding-left: 30px;
+    padding-right: 100px;
+    height: 40px;
+    width: 140px;
+}
+
+#sub-but {
+    width: 140px;
+    height: 40px;
+    /* padding-left: 30px;
+    padding-right: 100px; */
+}
+
+.humble {
+    background-color: black;
+    text-align: center;
+}
+
+#ft {
+    color: red;
+}
+
+#ft-1 {
+    color: #fff4d6
 }
